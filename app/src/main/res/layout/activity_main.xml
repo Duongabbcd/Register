@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#050505"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+ <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="ĐĂNG NHẬP"
+    android:textColor="#17A0CD"
+    android:textSize="10dp"
+    android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittextuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Tên đăng nhập: "
+        android:textColor="@color/black" />
+
+
+    <EditText
+        android:id="@+id/edittextpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Mật khẩu: "
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/edittextforgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Quên mật khẩu ? "
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttondangky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0C0C0C"
+            android:text="ĐĂNG KÝ"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buttondangnhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#070707"
+            android:text="ĐĂNG NHẬP"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/buttonthoat"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="#0C0C0C"
+            android:text="THOÁT ĐĂNG NHẬP"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
